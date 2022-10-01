@@ -1,0 +1,20 @@
+{
+  "name": "뉴스픽담당일진",
+  "description": "헉",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_icon": {
+      "128": "/images/fuck.png"
+    }
+  },
+  "icons": {
+    "128": "/images/fuck.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://m.newspic.kr/*"],
+      "js": ["index.js"]
+    }
+  ]
+}
